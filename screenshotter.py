@@ -94,7 +94,7 @@ if __name__ == "__main__":
         raise Exception("Missing argument: Literature file")
 
     if os.path.exists("screenshots"):
-        raise Exception("'screenshots' folder is not empty")
+        raise Exception("'screenshots' folder already exists")
     os.mkdir("screenshots")
 
     asyncio.get_event_loop().run_until_complete(main(sys.argv[1]))
