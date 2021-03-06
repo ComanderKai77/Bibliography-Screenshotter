@@ -51,7 +51,7 @@ def read_file(path):
         return file.read().replace("\n", "")
 
 def get_url_list(literature):
-    return re.findall('url\s*=\s*"?\s*{\s*(\S*)\s*}\s*"?\s*', literature, re.IGNORECASE)
+    return re.findall('url\s*?=\s*"?\s*?{\s*?(\S*?)\s*?}\s*?"?\s*?', literature, re.IGNORECASE)
 
 def generate_filename(url, type):
     filename = re.sub("[^\w\ ]", "_", url)
