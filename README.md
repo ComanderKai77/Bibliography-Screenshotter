@@ -40,7 +40,7 @@ pip3 install requests pyppeteer
 
 ## Usage
 ```bash
-python3 screenshotter.py PATH_TO_LITERATUR_FILE
+python3 screenshotter.py PATH_TO_LITERATURE_FILE
 ```
 
 ## How does it work?
