@@ -1,4 +1,4 @@
-# Bibliography-Screenshotter
+# Bibliography Screenshotter
 
 This tool is used to screenshot your sources automatically.
 For example when you are writing an essay and need to screenshot your online sources, you can use the Bibliography Screenshotter.
